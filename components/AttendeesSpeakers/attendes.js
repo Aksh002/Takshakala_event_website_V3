@@ -1,5 +1,5 @@
 import styles from '../../styles/attendees.module.css'
-
+import Image from 'next/image'
 const Attendes = () => {
     return (
         <div className={styles.back}>
@@ -19,11 +19,12 @@ const Attendes = () => {
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
-                    <img
-                        data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC_0838_2_zxyp2n.jpg"
-                        className={styles.hi}
-                    />
+                <Image
+                    data-aos="rotate-c"
+                    src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC02855_1_x0oa32.jpg"
+                    className={styles.hi2}
+                    alt="Workshop Image"
+                />
                 </div>
 
                 <div className={styles.text}>
@@ -38,11 +39,12 @@ const Attendes = () => {
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
-                    <img
-                        data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC02855_1_x0oa32.jpg"
-                        className={styles.hi2}
-                    />
+                <Image
+                    data-aos="rotate-c"
+                    src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC_0838_2_zxyp2n.jpg"
+                    className={styles.hi}
+                    alt="Seminar Image"
+                />
                 </div>
 
                 <div className={styles.text}>
@@ -56,11 +58,12 @@ const Attendes = () => {
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
-                    <img
-                        data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664485/DSC_0277_1_tdbkek_1_q1hcom.jpg"
-                        className={styles.hi3}
-                    />
+                <Image
+                    data-aos="rotate-c"
+                    src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664485/DSC_0277_1_tdbkek_1_q1hcom.jpg"
+                    className={styles.hi3}
+                    alt="Guidance Image"
+                />
                 </div>
             </div>
         </div>

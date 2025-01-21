@@ -13,9 +13,9 @@ const Timer = ({ setShowTimer }) => {
         const interval = setInterval(() => {
             setCurrentTime(moment())
         }, 1000)
-        if (timeBetween == 0) setShowTimer(false)
+        if (timeBetween === 0) setShowTimer(false)
         return () => clearInterval(interval)
-    }, [])
+    }, [setShowTimer, timeBetween])
 
     return (
         <div className={styles.container}>
