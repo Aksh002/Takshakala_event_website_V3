@@ -43,7 +43,7 @@ export default function Home() {
         <>
             <div className={styles.container} style={{ height: height }}>
                 <Head>
-                    <title>NEURA AI CONCLAVE - MIT BLR</title>
+                    <title>MBOSC TAKSHAKALA - MIT BLR</title>
                     {/* <meta
                         name="description"
                         content="NEURA AI - Manipal Institute of Technology- Bengaluru"
